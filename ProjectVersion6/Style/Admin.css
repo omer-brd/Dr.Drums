@@ -1,0 +1,43 @@
+﻿h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+h3 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    color: #9E9E9E;
+    position: relative;
+    left: 20px;
+}
+.p {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 35px;
+    color: #9E9E9E;
+    position: relative;
+    left: 20px;
+}
+#div1 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+    color: #9E9E9E;
+}
+table {
+    border: solid 1px;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: white;
+}
+td {
+    border: solid 1px;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: white;
+}
+tr {
+    border: solid 1px;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: white;
+}

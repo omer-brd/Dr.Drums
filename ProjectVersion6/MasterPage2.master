@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <link rel='icon' href='Images/logo.png' type='image/x-icon'/>
+    <title></title>
+    <script src="../JS/MasterPage.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href="Style/NavigationBar.css" rel="stylesheet" />
+    <link href="Style/MasterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="startTime();">
+    <form id="form1" runat="server">
+    <h1 id="hd1">
+        <b> Dr. Drums </b> drum store
+        <a id="log" runat="server">
+                <label id="wellcome"><%="welcome " + Session["username"] %></label>
+                <br />
+                Username: 
+                <input type="text" name="username" size="25">
+                <br>
+                Password:
+                <input type="password" name="password" size="17">
+                <input type="submit" value="Log in" onclick="return ClickSubmit();">
+                <br>
+                 Don't have an account?
+                <button onclick="SignUp();"> Sign up </button>
+        </a>
+        <a>
+            <label id="ban1" name="ban1" runat="server">Please reset pasword</label>
+        </a>
+        <a>
+            <label id="wellcome2" runat="server"><%="welcome " + Session["username"] %></label>
+            <br /><br />
+            <button id="logout" name="logout" runat="server"> Log out </button>
+        </a>
+        <p id="clock"></p>
+    </h1>
+    <ul >
+        <li><a href="Home2.aspx">Home</a></li>
+        <li><a href="SignUp2.aspx">Sign Up</a></li>
+        <li><a href="PasswordReset2.aspx">Reset Password</a></li>
+        <li runat="server" id="bar2"><a href="ReleventSites2.aspx">Relevent Sites</a></li>
+        <li><a href="About2.aspx">About</a></li>
+        <li runat="server" id="bar4"><a href="Edit.aspx">Edit User</a></li>
+        <li runat="server" id="bar3"><a href="Admin.aspx">Admin Page</a></li>
+        <li><a href="Survey.aspx">Survey</a></li>
+    </ul>
+    </form>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

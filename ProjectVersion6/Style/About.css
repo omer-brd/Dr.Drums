@@ -1,0 +1,143 @@
+﻿body {
+    background-image: url('../Images/brickbackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heads {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    color: #9E9E9E;
+    position: relative;
+    left: 20px;
+}
+.par {
+    color: #9E9E9E;
+    font-family: Helvetica;
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+#NavigationBar {
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family: Helvetica;
+    font-size: 250%;
+    color: #9E9E9E;
+    text-align: center;
+    background-color: #202020;
+    padding: 30px;
+}
+#NavigationBar b {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 250%;
+    color: #9E9E9E;
+    text-align: center;
+    background-color: #202020;
+}
+.divs {
+    width: 80%;
+    background-color: rgba(57, 57, 57, 0.85);
+    border: solid 3px;
+    border-color: black;
+    border-radius: 50px;
+}
+td {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+    color: #9E9E9E;
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+.mySlides {
+    display: none;
+
+}
+img {
+    vertical-align: middle;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+
+}
+.text {
+    font-family: Impact, Charcoal, sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(57, 57, 57, 0.85);
+    border: solid 1px;
+    border-color: black;
+    border-radius: 50px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+        background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+#clock {
+    font-family: 'Orbitron';
+    font-size: 45px;
+    color: white;
+    text-align: right;
+    float: right;
+    background-color: #202020;
+}

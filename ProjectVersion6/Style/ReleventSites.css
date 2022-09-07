@@ -1,0 +1,31 @@
+﻿body {
+    background-image: url('../Images/brickbackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heads {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    color: #9E9E9E;
+    position: relative;
+    left: 20px;
+}
+.par {
+    color: #9E9E9E;
+    font-family: Helvetica;
+    position: relative;
+    left: 20px;
+}
+.divs {
+    width: 80%;
+    background-color: rgba(57, 57, 57, 0.85); 
+}
+#clock {
+    font-family: 'Orbitron';
+    font-size: 45px;
+    color: white;
+    text-align: right;
+    float: right;
+    background-color: #202020;
+}

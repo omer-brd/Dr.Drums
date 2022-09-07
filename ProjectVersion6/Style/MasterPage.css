@@ -1,0 +1,68 @@
+﻿body {
+    background-image: url('../Images/brickbackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#hd1 {
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family: Helvetica;
+    font-size: 250%;
+    color: #9E9E9E;
+    text-align: center;
+    background-color: #202020;
+    padding: 30px;
+}
+h1 b {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 250%;
+    color: #9E9E9E;
+    text-align: center;
+    background-color: #202020;
+}
+h1 a {
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    background-color: #202020;
+}
+input {
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: #9E9E9E;
+    color: #202020;
+}
+#clock {
+    font-family: 'Orbitron';
+    font-size: 45px;
+    color: white;
+    text-align: right;
+    float: right;
+    background-color: #202020;
+}
+button {
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: #9E9E9E;
+    color: #202020;
+}
+#wellcome {
+    font-family: 'Orbitron';
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    float: left;
+    background-color: #202020;
+}
+#wellcome2 {
+    font-family: 'Orbitron';
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    float: left;
+    background-color: #202020;
+}
